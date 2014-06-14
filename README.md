@@ -1,0 +1,2 @@
+Rails Server Chef Template
+==========================
