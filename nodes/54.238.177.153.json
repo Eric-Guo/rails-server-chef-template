@@ -1,8 +1,0 @@
-{
-  "run_list": [
-	"role[rails-app]"
-  ],
-  "automatic": {
-    "ipaddress": "54.238.177.153"
-  }
-}
