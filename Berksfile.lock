@@ -1,13 +1,9 @@
 DEPENDENCIES
-  build-essential
-    git: git://github.com/opscode-cookbooks/build-essential.git
-    revision: 400968913bfa8a4a5c9783b383c3b63899f2fe72
   rbenv
     git: git://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
 
 GRAPH
-  build-essential (2.0.5)
   java (1.22.0)
   rbenv (0.7.3)
     java (> 1.4.0)
