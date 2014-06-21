@@ -9,3 +9,6 @@ cookbook 'postgresql', github: 'opscode-cookbooks/postgresql'
 
 cookbook 'rails_gem_dependencies-tlq', github: 'TalkingQuickly/rails_gem_dependencies-tlq'
 cookbook 'rbenv', github: 'fnichol/chef-rbenv'
+
+cookbook 'users', github: 'opscode-cookbooks/users'
+cookbook 'sudo', github: 'opscode-cookbooks/sudo'

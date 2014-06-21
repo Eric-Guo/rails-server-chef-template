@@ -17,6 +17,12 @@ DEPENDENCIES
   rbenv
     git: git://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
+  sudo
+    git: git://github.com/opscode-cookbooks/sudo.git
+    revision: 8bbdff7302f7a86e18d1a3f029813c665b53b322
+  users
+    git: git://github.com/opscode-cookbooks/users.git
+    revision: fca9a42ab44dadbb98432c931dfc6c049ecc23ce
 
 GRAPH
   apt (2.4.0)
@@ -36,3 +42,5 @@ GRAPH
     java (> 1.4.0)
     ruby_build (>= 0.0.0)
   ruby_build (0.8.0)
+  sudo (2.6.1)
+  users (1.7.1)

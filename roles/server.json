@@ -3,6 +3,19 @@
 {
   "name": "server",
   "description": "A server of some kind...",
+  "default_attributes": {
+    "authorization": {
+      "sudo": {
+        // everyone in the group sysadmin gets sudo rights
+        "groups": ["sysadmin"],
+        // the deploy user specifically gets sudo rights
+        "users": ["deploy"],
+        // whether a user with sudo rights has to enter their
+        // password when using sudo
+        "passwordless": "false"
+      }
+    }
+  },
   "json_class": "Chef::Role",
   "run_list": [
     // for building things

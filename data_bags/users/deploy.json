@@ -1,0 +1,12 @@
+{
+  "id": "deploy",
+  // generate this with: openssl passwd -1 "plaintextpassword"
+  "password": "$1$XSyFcsa1$rXXnYgnmqR7gBpVtMIKsf/",
+  // the below should contain a list of ssh public keys which should
+  // be able to login as deploy
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA8hLZWgx6RWkY+OVqklIHB5mc6ilZKodhrqsxnBU5CFzrdfWUcVdA/VcG+kc7RY1FuCDq+A3CNxOqB8AxzDDCHdIaTJu1Qg8C+i/LH6djTxxb055mGp84IIh2cADSzAXFGy67PWAVFZbw1hiwAqRZiGQJO9/oiuNURdkd3PkmVIggn6uPMvw9utvPNBRZcf0P0VZQbTLY7owTR+g9WdZd4du8Rctz6MSR62mE0zhAsTbIXpTztKUDL3UfLjRf9fxB0tajDRjfX+XbGLSOoIZkRqmX0p+q6ruh+9Vj4CYfmAoE/mY6ETvEgsMzUTZkeCxcuj9DV1TB/3InNYQikvWQKQ== Chef Deploy",
+  ],
+  "groups": [ "sysadmin"],
+  "shell": "\/bin\/bash"
+}
