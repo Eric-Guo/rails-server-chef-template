@@ -1,4 +1,10 @@
 {
+  "postgresql" : {
+    "password" : {
+      // generate this with: openssl passwd -1 "plaintextpassword"
+      "postgres" : ""
+    }
+  },
   "run_list": [
     "role[server]",
     "role[nginx]",
