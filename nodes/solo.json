@@ -1,5 +1,8 @@
 {
   "run_list": [
-	"role[rails-app]"
+    "role[server]",
+    "role[nginx]",
+    "role[postgres-server]",
+    "role[rails-app]"
   ]
 }

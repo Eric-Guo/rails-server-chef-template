@@ -1,0 +1,17 @@
+// Things we want standard on all server boxes, primarily:
+// - Look and feel
+{
+  "name": "server",
+  "description": "A server of some kind...",
+  "json_class": "Chef::Role",
+  "run_list": [
+    // for building things
+    "build-essential",
+    // make the server look pretty
+    "look_and_feel-tlq"
+  ],
+  "chef_type": "role",
+  "override_attributes": {
+  }
+}
+

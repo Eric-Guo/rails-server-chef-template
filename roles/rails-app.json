@@ -13,10 +13,10 @@
         ]
       }
     }
-
   },
   "json_class": "Chef::Role",
   "run_list": [
+    "rails_gem_dependencies-tlq",
     "ruby_build",
     "rbenv::system"
   ],
