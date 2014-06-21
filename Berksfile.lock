@@ -6,11 +6,11 @@ DEPENDENCIES
     git: git://github.com/Eric-Guo/look_and_feel-tlq.git
     revision: cbea493e8b7d617f0fa7a9689e8089381f2d5f48
   nginx-tlq
-    git: git://github.com/TalkingQuickly/nginx-tlq.git
-    revision: 863f0faadbc5c61e925cb7de10dba97fc695fa89
+    git: git://github.com/Eric-Guo/nginx-tlq.git
+    revision: c5545bae3a4350d478bf7a2430f54fed4b0656ec
   postgresql
-    git: git://github.com/opscode-cookbooks/postgresql.git
-    revision: 9dc4c6042bbd861ee8d5e2428397558fee06947e
+    git: git://github.com/Eric-Guo/postgresql.git
+    revision: 3c297fc2867a934c81344d58de4ae137d4735d41
   rails_gem_dependencies-tlq
     git: git://github.com/TalkingQuickly/rails_gem_dependencies-tlq.git
     revision: 86d443f34b93f59dc7a4ed7e51f46a42b2c79eb1
