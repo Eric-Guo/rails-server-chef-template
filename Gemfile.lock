@@ -110,7 +110,7 @@ GEM
     nio4r (1.0.0)
     octokit (3.3.0)
       sawyer (~> 0.5.3)
-    ohai (7.2.0)
+    ohai (7.2.2)
       ffi (~> 1.9)
       ffi-yajl (~> 1.0)
       ipaddress
